@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Web | Home </title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .options {
+          display: none;
+          margin-top: 10px;
+        }
+    </style>
+  <script>
+    function showOptions(buttonId, optionsId) {
+      var optionsDiv = document.getElementById(optionsId);
+      if (optionsDiv.style.display === "none") {
+        optionsDiv.style.display = "block";
+      } else {
+        optionsDiv.style.display = "none";
+      }
+    }
+  </script>
+
+<style>
+    .options {
+      display: none;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .options ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .options ul li {
+      margin-bottom: 5px;
+    }
+
+    .options ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .options ul li a:hover {
+      background-color: #ddd;
+    }
+  </style>
+  
+
+<style>
+    /* Footer styles */
+    footer {
+      background-color: #ba48e0f7;
+      padding: 30px;
+      text-align: center;
+    }
+
+    /* Section styles */
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h3 {
+      color: #000000;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .section ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .section ul li a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    .section ul li a:hover {
+      color: #000000;
+    }
+  </style>
+
+
+
+
+
+</head>
+<body>
+    <header>
+
+        <h1>Shadow Web</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="">Trending</a>
+        <a href="#">Groups</a>
+        <a href="#">Settings</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About</a>
+    </nav>
+    <main>
+         
+        <h3><b> User123</b></h3>
+        <h4> Topic: Social Issue</h4>
+        <div class="box">
+        <p><i><--------------content about the topic--------------></i></p>  
+
+        <br>  
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <button onclick="showOptions('button1', 'options1')">More</button>
+  <div id="options1" class="options">
+    <ul>
+      <li><input type="button" value="Upvote"></li>
+      <li><input type="button" value="Comment"></li>
+      <li><input type="button" value="Report"></li>
+    </ul>
+  </div>
+        <hr>
+        <h3><b> Krax</b></h3>
+        <h4> Topic: Religion</h4>
+        <div class="box">
+            
+        <p><i><--------------content about the topic--------------></i></p>   
+            <br>  
+            <br>
+            <br>
+            <br>
+            <br>  
+          
+        </div>
+        <button onclick="showOptions('button2', 'options2')">More</button>
+  <div id="options2" class="options">
+    <ul>
+        <li><input type="button" value="Upvote"></li>
+      <li><input type="button" value="Comment"></li>
+      <li><input type="button" value="Report"></li>
+    </ul>
+  </div>
+
+  
+    </main>
+    <br>  
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>  
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <footer>
+        <div class="section">
+          <h3><b>FAQ</b></h3>
+          <ul>
+            <li><a href="#">How will i remain anonymous</a></li>
+            <li><a href="#">Is it safe?</a></li>
+            
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3><b>Terms of Use</b></h3>
+         
+        </div>
+    
+        <div class="section">
+          <h3><b>Privacy Policy</b></h3>
+          <ul>
+           
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3><b>Our Founders</b></h3>
+          <ul>
+            <li><a href="#">Harshal</a></li>
+            <li><a href="#">Rudraksh</a></li>
+            <li><a href="#">Prashil</a></li>
+            <li><a href="#">Om</a></li>
+          </ul>
+        </div>
+      </footer>
+    
+</body>
+</html>
+
+
+
+    
+    
+ 

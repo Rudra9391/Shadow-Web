@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <link rel="stylesheet" href="setting.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .options {
+      display: none;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .topic {
+      color: red;
+    }
+
+    .options ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .options ul li {
+      margin-bottom: 5px;
+    }
+
+    .options ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .options ul li a:hover {
+      background-color: #ddd;
+    }
+  </style>
+
+
+  <style>
+    /* Footer styles */
+    footer {
+      background-color: #c1e7f1f7;
+      padding: 30px;
+      text-align: center;
+      float: left;
+      margin-left: 20px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    /* Section styles */
+    .section {
+      margin-bottom: 0px;
+    }
+
+    .section h3 {
+      color: #000000;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .form-container {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form-container h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.form-container button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.form-container .Delete {
+  background-color: red;
+}
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container .comments {
+  margin-top: 20px;
+}
+
+.form-container .comments p {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.form-container hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .section ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .section ul li a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    .section ul li a:hover {
+      color: #1bd6e3;
+    }
+  </style>
+
+
+
+
+</head>
+<body>
+  <nav style="background-color: #010536;">
+    <a  href="homepage.html" id="trendPage" style="padding: 0px;"><img src="logo.png" alt="" style="height: 80px; width: 90px; padding: 0px;"></a>
+    <div class="nav-links">
+      <div id="home"><a href="homepage.html">User</a></div>
+      <a id="setting">Settings</a>
+      <a href="aboutus.html">About Us</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>Settings</h1>
+    <div class="button-container">
+      <button><a href="./login.html">Logout</a></button>
+    </div>
+    <div class="button-container" id="delete">
+      <button onclick="deleteMe()">Delete User</button>
+    </div>
+  </div>
+  <footer style="    position: absolute;
+  left: 646px;">
+    <div class="section">
+     
+
+    <div class="section">
+      <h3><b>User Agreements</b></h3>
+      <ul>
+        <li><a href="Terms_of_use.html">Terms of use</a></li>
+      </ul>
+    </div>
+
+    </div>
+    <div class="section">
+      
+      <ul>
+
+      </ul>
+    </div>
+
+
+    <div class="section">
+      <h3><b>Queries? Our Founders:</b></h3>
+      <ul>
+        <li><a href="mailto:chikudhoke1432@gmail.com">Harshal</a></li>
+        <li><a href="mailto:rudra999tomar@gmail.com">Rudraksh</a></li>
+        <li><a href="mailto:prashilmude72@gmail.com">Prashil</a></li>
+        <li><a href="mailto:ombilariya@gmail.com">Om</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./setting.js"></script>
+  <script src="./user.js"></script>
+</body>
+</html>
